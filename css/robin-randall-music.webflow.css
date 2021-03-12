@@ -942,6 +942,10 @@
   background-attachment: fixed;
 }
 
+.lottie-animation {
+  margin-bottom: -87px;
+}
+
 @media screen and (min-width: 1920px) {
   .parallax_block_notes {
     background-image: url('../images/music_notes.jpg');
