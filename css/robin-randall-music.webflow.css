@@ -352,14 +352,14 @@
 }
 
 .about_section {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .contact_section {
   height: 100vh;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer_section {
@@ -369,14 +369,14 @@
 }
 
 .services_section {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #e4e4e4;
 }
 
 .testimonials_section {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #fff;
 }
 
@@ -601,8 +601,8 @@
 }
 
 .musical_icons {
-  width: 128px;
-  height: 128px;
+  width: 96px;
+  height: 96px;
 }
 
 .icon_para {
@@ -618,8 +618,8 @@
 }
 
 .blog_section {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #e4e4e4;
 }
 
@@ -855,6 +855,10 @@
   transition: opacity 200ms ease-in;
 }
 
+.card_top {
+  height: 250px;
+}
+
 .card_bottom {
   height: 425px;
   padding: 50px;
@@ -876,11 +880,12 @@
 }
 
 .card_cms_para {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   color: #000;
 }
 
 .cms_link_block {
+  height: 675px;
   color: #333;
   text-decoration: none;
 }
@@ -944,6 +949,10 @@
 
 .lottie-animation {
   margin-bottom: -87px;
+}
+
+.image-2 {
+  max-width: 35%;
 }
 
 @media screen and (min-width: 1920px) {
