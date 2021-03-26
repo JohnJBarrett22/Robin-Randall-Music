@@ -708,6 +708,7 @@
 .testimonial_para {
   margin-bottom: 20px;
   color: #000;
+  font-style: italic;
 }
 
 .author_block {
@@ -807,7 +808,7 @@
 .mini_divide {
   width: 5%;
   height: 1px;
-  margin: 25px auto;
+  margin: 0px auto 25px;
   border-style: solid;
   border-width: 1px;
   border-color: #5c9900;
@@ -1033,12 +1034,19 @@
   margin-left: -15px;
 }
 
-.navbar-2 {
+.main_navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
   background-color: #6521ab;
 }
 
 .nav-link {
   color: #fff;
+}
+
+.nav-link.w--current {
+  text-decoration: none;
 }
 
 .nav-link-2 {
@@ -1061,12 +1069,13 @@
   color: #fff;
 }
 
-.nav-link-7 {
-  color: #2b2a2a;
+.nav_link {
+  color: #fff;
 }
 
-.nav-link-7.w--current {
+.nav_link.w--current {
   color: #ffdecc;
+  font-weight: 700;
 }
 
 .footer_links {
@@ -1076,6 +1085,10 @@
   font-size: 30px;
   line-height: 36px;
   text-decoration: none;
+}
+
+.footer_links:hover {
+  color: #ffdecc;
 }
 
 .link-block-2 {
