@@ -445,6 +445,11 @@
   color: #fff;
 }
 
+.social-media-icons-contianer {
+  font-family: 'Fa brands 400', sans-serif;
+  color: #fff;
+}
+
 .social-media-icons-contianer.no-bottom-margins {
   color: #fff;
 }
@@ -1028,6 +1033,58 @@
   margin-left: -15px;
 }
 
+.navbar-2 {
+  background-color: #6521ab;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link-2 {
+  color: #fff;
+}
+
+.nav-link-3 {
+  color: #fff;
+}
+
+.nav-link-4 {
+  color: #fff;
+}
+
+.nav-link-5 {
+  color: #fff;
+}
+
+.nav-link-6 {
+  color: #fff;
+}
+
+.nav-link-7 {
+  color: #2b2a2a;
+}
+
+.nav-link-7.w--current {
+  color: #ffdecc;
+}
+
+.footer_links {
+  margin-right: 25px;
+  margin-left: 25px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.link-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media screen and (min-width: 1920px) {
   .parallax_block_notes {
     background-image: url('../images/music_notes.jpg');
@@ -1231,4 +1288,12 @@
   .card_bottom-2 {
     padding: 7px 15px;
   }
+}
+
+@font-face {
+  font-family: 'Fa brands 400';
+  src: url('../fonts/fa-brands-400.woff2') format('woff2'), url('../fonts/fa-brands-400.eot') format('embedded-opentype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
