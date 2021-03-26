@@ -701,6 +701,7 @@
 }
 
 .testimonial_para {
+  margin-bottom: 20px;
   color: #000;
 }
 
@@ -802,7 +803,9 @@
   width: 5%;
   height: 1px;
   margin: 25px auto;
-  border: 1px solid #3c86e5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5c9900;
   text-align: left;
 }
 
@@ -953,6 +956,76 @@
 
 .image-2 {
   max-width: 35%;
+}
+
+.song_writing_service_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background-image: url('../images/music_notes.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ear_training_service_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background-image: url('../images/pexels-cottonbro-5650529.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.music_theory_service_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background-image: url('../images/pexels-cottonbro-5650529.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.lottie_animation_stars {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  margin-left: -15px;
 }
 
 @media screen and (min-width: 1920px) {
