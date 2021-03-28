@@ -194,8 +194,8 @@
 }
 
 .rr_body {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .header_block {
@@ -1119,6 +1119,11 @@
   padding-bottom: 100px;
 }
 
+.blog_page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .columns {
   width: 100%;
 }
@@ -1164,6 +1169,14 @@
   margin-right: 10px;
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.body {
+  padding-top: 0px;
+}
+
+.published_date_blog_page {
+  text-align: center;
 }
 
 @media screen and (min-width: 1920px) {
