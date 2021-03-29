@@ -1181,10 +1181,8 @@
 }
 
 .testimonial_block {
-  width: 60%;
-  margin-top: 76px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 85%;
+  margin: 75px auto;
 }
 
 .testimonial_date {
@@ -1197,6 +1195,15 @@
 
 .testimonial_location {
   text-align: right;
+}
+
+.reviews_container {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffdecc;
 }
 
 @media screen and (min-width: 1920px) {
