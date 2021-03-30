@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Mar 29 2021 11:26:37 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Mar 30 2021 11:24:03 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="605d92d59249bd0f17dd41d7" data-wf-site="5ea67c35d3a80f26afd03b11">
 <head>
   <meta charset="utf-8">
@@ -18,7 +18,7 @@
 </head>
 <body class="rr_body">
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="main_navbar w-nav">
-    <div class="w-container">
+    <div class="main_container">
       <a href="#" class="w-nav-brand"></a>
       <nav role="navigation" class="w-nav-menu">
         <a href="index.html" class="nav_link w-nav-link">Home</a>
@@ -34,7 +34,30 @@
       </div>
     </div>
   </div>
-  <div class="contact_page"></div>
+  <div class="contact_page">
+    <div class="main_container">
+      <h2>Contact form</h2>
+      <p>This form uses grid for its layout. Adjust and reorganize the <strong>divs </strong>inside the <strong>Form Grid</strong> to fit 1 or 2 grid columns as needed.</p>
+      <div id="formInstructions" class="small-text"><em>Fields marked with an asterisk (*) are required.</em></div>
+      <div class="w-form">
+        <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form">
+          <div class="contact-form-grid">
+            <div id="w-node-f89cdfe6-ee28-7a78-666d-caf691fc438a-17dd41d7"><label for="First-Name" id="contact-first-name">First name *</label><input type="text" class="w-input" maxlength="256" name="First-Name" data-name="First Name" id="First-Name" required=""></div>
+            <div id="w-node-f89cdfe6-ee28-7a78-666d-caf691fc438e-17dd41d7"><label for="Last-Name" id="contact-last-name">Last name *</label><input type="text" class="w-input" maxlength="256" name="Last-Name" data-name="Last Name" id="Last-Name" required=""></div>
+            <div id="w-node-f89cdfe6-ee28-7a78-666d-caf691fc4392-17dd41d7"><label for="Email" id="contact-email">Email *</label><input type="email" class="w-input" maxlength="256" name="Email" data-name="Email" id="Email" required=""></div>
+            <div id="w-node-f89cdfe6-ee28-7a78-666d-caf691fc4396-17dd41d7"><label for="Contact-Phone-Number" id="contact-phone">Phone number</label><input type="tel" class="w-input" maxlength="256" name="Contact-Phone-Number" data-name="Contact Phone Number" id="Contact-Phone-Number"></div>
+            <div id="w-node-f89cdfe6-ee28-7a78-666d-caf691fc439a-17dd41d7"><label for="Message" id="contact-message">Message</label><textarea data-name="Message" maxlength="5000" id="Message" name="Message" class="w-input"></textarea></div>
+          </div><input type="submit" value="Submit" data-wait="Please wait..." class="rr_button w-button">
+        </form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="footer_section">
     <div class="wrapper">
       <div class="centre-align"><img src="https://uploads-ssl.webflow.com/60379f25f61260d4ae042612/60379f25f6126051e8042740_medium%20blue.svg" width="78" alt="" class="margin-bottom">
