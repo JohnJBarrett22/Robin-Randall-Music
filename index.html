@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Mar 30 2021 11:24:03 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Mar 31 2021 22:22:19 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea67c35d3a80f0c34d03b12" data-wf-site="5ea67c35d3a80f26afd03b11">
 <head>
   <meta charset="utf-8">
@@ -50,6 +50,8 @@
   </div>
   <div class="about_section">
     <div class="main_container">
+      <h2 class="section_h2">Come Learn With Us!</h2>
+      <div class="video w-video w-embed"></div>
       <h2 class="section_h2">Meet Your Instructor</h2>
       <div class="mini_divide"></div>
       <div class="_4_block_row">
@@ -75,7 +77,10 @@
           <h3 class="section_h3">Robin Randall</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-          <a href="biography.html" class="rr_button_center w-button"><strong>LEARN MORE</strong></a>
+          <div class="div-block-7">
+            <a href="biography.html" class="rr_button_row w-button"><strong>BIOGRAPHY</strong></a>
+            <a href="discography.html" class="rr_button_row w-button"><strong>DISCOGRAPHY</strong></a>
+          </div>
         </div>
         <div class="_2_block">
           <div class="img_block"><img src="images/ROBIN-RANDALL400.jpg" loading="lazy" alt="" class="image"></div>
@@ -129,7 +134,7 @@
     <h2 class="section_h2">Testimonials</h2>
     <div class="mini_divide"></div>
     <div class="main_container">
-      <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
+      <div data-delay="5000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1" class="slider w-slider">
         <div class="mask w-slider-mask">
           <div class="slide w-slide">
             <div class="_3_block_row">
@@ -152,15 +157,18 @@
           </div>
           <div class="w-slide">
             <div class="_3_block_row">
-              <div class="_3_block_review"><img src="images/take_lessons_five_stars.PNG" loading="lazy" alt="">
+              <div class="_3_block_review">
+                <div data-w-id="88c06dd8-854c-2a9c-ed52-14bdf7f7a6a1" data-animation-type="lottie" data-src="documents/top_rated_5_star_reviews.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0" class="lottie_animation_stars"></div>
                 <p class="testimonial_para">Robin is a great teacher. She is extremely knowledgeable of piano and theory. The communication I receive during our lessons made me confident in returning. She is a very nice lady who has helped me out tremendously. Thank you, Robin.</p>
                 <div class="author_block"><strong>Spe T.</strong><br></div>
               </div>
-              <div class="_3_block_review"><img src="images/take_lessons_five_stars.PNG" loading="lazy" alt="">
+              <div class="_3_block_review">
+                <div data-w-id="a43093dd-71a8-5773-47d4-8c37f22ccfe2" data-animation-type="lottie" data-src="documents/top_rated_5_star_reviews.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0" class="lottie_animation_stars"></div>
                 <p class="testimonial_para">My favourite songwriting teacher<br><br>I studied at Musicians Institute with Robin. Out of the many teachers I learnt from. She was my favorite songwriting mentor. I couldn&#x27;t have asked for better. I graduated in March 2013 and till date I cannot forget her part in my music career.<strong><br></strong></p>
                 <div class="author_block"><strong>Bhavana</strong><br></div>
               </div>
-              <div class="_3_block_review"><img src="images/take_lessons_five_stars.PNG" loading="lazy" alt="">
+              <div class="_3_block_review">
+                <div data-w-id="6c119c47-9901-783c-f78c-ac08ee9358f9" data-animation-type="lottie" data-src="documents/top_rated_5_star_reviews.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0" class="lottie_animation_stars"></div>
                 <p class="testimonial_para">Great Teacher<br><br>One of the best teachers i had, influenced me to write songs and gave me practical and easy to follow advices on songwriting making a strong base and giving me space to grow! From her i learned how to have confidence on my songwriting!</p>
                 <div class="author_block"><strong>Socrates M.</strong><br></div>
               </div>
@@ -241,7 +249,7 @@
         </div>
         <div class="_2_block margin_left">
           <div class="w-form">
-            <form id="email-form" name="email-form" data-name="Email Form"><label for="name">Name</label><input type="text" class="w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name" required=""><label for="Phone-Number">Phone Number</label><input type="tel" class="w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="" id="Phone-Number" required=""><label for="email">Email Address</label><input type="email" class="w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="email" required=""><label for="Message">Message</label><input type="text" class="w-input" maxlength="256" name="Message" data-name="Message" placeholder="" id="Message" required="">
+            <form id="email-form" name="email-form" data-name="Email Form"><label for="name">Name</label><input type="text" class="w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name" required=""><label for="Phone-Number">Phone Number</label><input type="tel" class="w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="" id="Phone-Number" required=""><label for="email">Email Address</label><input type="email" class="w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="email" required=""><label for="Message">Message</label><textarea placeholder="Example Text" maxlength="5000" id="Message" name="Message" data-name="Message" required="" class="w-input"></textarea>
               <div class="w-form-formrecaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled g-recaptcha-invalid-key"></div><input type="submit" value="SUBMIT" data-wait="Please wait..." class="rr_button w-button">
             </form>
             <div class="w-form-done">

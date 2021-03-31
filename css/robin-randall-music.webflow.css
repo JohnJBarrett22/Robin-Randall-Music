@@ -775,6 +775,11 @@
   padding-bottom: 100px;
 }
 
+.discography_page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .testimonials_page {
   margin-top: 0px;
   padding-top: 100px;
@@ -814,6 +819,26 @@
 }
 
 .lessons_page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.music_theory_page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.ear_training_page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.piano_lessons_page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.song_writing_page {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -898,39 +923,6 @@
   grid-template-rows: auto auto auto auto auto auto auto auto auto;
 }
 
-.utility-page-wrap {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  max-height: 100%;
-  max-width: 100%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.utility-page-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 260px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
-}
-
 ._404_page {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -945,11 +937,6 @@
 
 .heading {
   text-align: center;
-}
-
-.contact-form {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .contact-form-grid {
@@ -1027,29 +1014,6 @@
   align-items: center;
 }
 
-.faq-wrap {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .toggle-text {
   position: relative;
   z-index: 2;
@@ -1106,10 +1070,6 @@
   margin-right: 16px;
 }
 
-.title {
-  text-align: center;
-}
-
 .faq-p {
   overflow: hidden;
   width: 100%;
@@ -1133,6 +1093,66 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.video {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.div-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rr_button_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  margin: 15px 25px;
+  padding: 15px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #5c9900;
+  font-weight: 700;
+}
+
+.grid-3 {
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.grid-4 {
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 @media screen and (min-width: 1920px) {
@@ -1235,18 +1255,9 @@
     text-align: left;
   }
 
-  .contact-form {
-    padding: 40px 20px;
-  }
-
   .faq-img {
     min-height: 40px;
     min-width: 50px;
-  }
-
-  .faq-wrap {
-    padding-right: 5%;
-    padding-left: 5%;
   }
 }
 
@@ -1300,17 +1311,8 @@
     display: none;
   }
 
-  .faq-wrap {
-    padding-right: 3%;
-    padding-left: 3%;
-  }
-
   .subtitle {
     font-size: 14px;
-  }
-
-  .title {
-    font-size: 36px;
   }
 }
 
