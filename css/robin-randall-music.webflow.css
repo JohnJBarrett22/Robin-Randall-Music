@@ -945,8 +945,22 @@
   display: flex;
 }
 
-.heading {
+.lesson_h3 {
+  margin-top: 0px;
+}
+
+.sub_heading {
+  margin-top: 0px;
   text-align: center;
+}
+
+.lesson_h3_action_link {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  color: #5c9900;
+  text-decoration: none;
 }
 
 .contact-form-grid {
@@ -1403,6 +1417,51 @@
 
 .text-block-2 {
   color: #fff;
+}
+
+.success-message-2 {
+  background-color: #5c9900;
+}
+
+.div-block-9 {
+  color: #fff;
+}
+
+.lottie-animation-2 {
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+  margin-left: 10px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.div-block-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.link_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1920px) {
