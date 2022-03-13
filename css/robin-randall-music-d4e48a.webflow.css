@@ -2779,6 +2779,7 @@ figcaption {
 }
 
 .section.premium-classes {
+  display: block;
   background-color: #6521ab;
   background-image: url('../images/Lines-1.svg');
   background-position: 100% 0%;
@@ -2898,7 +2899,7 @@ figcaption {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #d2e4e0;
+  background-color: #dfdfdf;
   background-image: url('../images/Green-Lines.svg');
   background-position: 100% 100%;
   background-size: 1000px;
@@ -4050,8 +4051,8 @@ figcaption {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: 50% 0%;
-  object-position: 50% 0%;
+  -o-object-position: 50% -10%;
+  object-position: 50% -10%;
 }
 
 .brand-logo {
@@ -4129,6 +4130,10 @@ figcaption {
 
 .arrow-nav:hover {
   padding-left: 10px;
+}
+
+.arrow-nav.left-arrow {
+  border-color: #6521ab;
 }
 
 .arrow-nav.left-arrow:hover {
@@ -4302,6 +4307,8 @@ figcaption {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
 }
 
 .product-description {
@@ -4597,6 +4604,8 @@ figcaption {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
 }
 
 .insta-section-line {
@@ -4620,7 +4629,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffdecc;
+  background-color: #6521ab;
   -webkit-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
@@ -5107,7 +5116,7 @@ figcaption {
   padding-left: 30px;
   border: 1px none #000;
   border-radius: 10px;
-  background-color: rgba(32, 52, 146, 0.1);
+  background-color: #fff;
   color: #6521ab;
   font-size: 16px;
 }
@@ -5308,7 +5317,7 @@ figcaption {
   padding-left: 15px;
   border: 1px none #000;
   border-radius: 6px;
-  background-color: rgba(32, 52, 146, 0.1);
+  background-color: #fff;
   color: #081158;
   font-size: 16px;
 }
